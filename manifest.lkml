@@ -2,7 +2,7 @@
 ## Connection Constants:
 constant: GA4_CONNECTION {
   value: "bq_inteligencia"
-  export: override_required
+ 
 
 }
 
