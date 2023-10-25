@@ -12,10 +12,10 @@
       "value_constraint": "bq_inteligencia"
     },
     "GA4_SCHEMA": {
-      "label": "ghdz-grupo-ga4-shd.analytics_288344381"
+      "label": "ghdz-grupo-bi-prd.google_analytics"
     },
     "GA4_TABLE_VARIABLE": {
-        "label": "events_*"
+        "label": "tbl_analytics_ga4_master"
     }
   },
 

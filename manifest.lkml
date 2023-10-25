@@ -6,11 +6,11 @@ constant: GA4_CONNECTION {
 }
 
 constant: GA4_SCHEMA {
-  value: "ghdz-grupo-ga4-shd.analytics_288344381"
+  value: "ghdz-grupo-bi-prd.google_analytics"
   
 }
 
 constant: GA4_TABLE_VARIABLE {
-  value: "events_*"
+  value: "tbl_analytics_ga4_master"
   
 }
