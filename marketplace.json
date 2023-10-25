@@ -8,8 +8,8 @@
 
   "constants": {
     "GA4_CONNECTION": {
-      "label": "bq_inteligencia",
-      "value_constraint": "connection"
+      "label": "Connection Name",
+      "value_constraint": "bq_inteligencia"
     },
     "GA4_SCHEMA": {
       "label": "ghdz-grupo-ga4-shd.analytics_288344381"

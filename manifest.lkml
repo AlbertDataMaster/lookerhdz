@@ -2,7 +2,7 @@
 ## Connection Constants:
 constant: GA4_CONNECTION {
   value: "bq_inteligencia"
- 
+
 }
 
 constant: GA4_SCHEMA {
