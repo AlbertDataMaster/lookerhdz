@@ -14,3 +14,11 @@ constant: GA4_TABLE_VARIABLE {
   export: override_optional
 }
 
+marketplace_ref: {
+  listing: "ga4"
+  version: "1.0.7"
+  models: ["ga4"]
+  override_constant: GA4_CONNECTION { value:"bq_inteligencia" }
+  override_constant: GA4_SCHEMA { value:"ghdz-grupo-ga4-shd.analytics_288344381" }
+  override_constant: GA4_TABLE_VARIABLE { value:"events_*" }
+}
