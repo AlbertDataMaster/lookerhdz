@@ -1,19 +1,16 @@
-
 ## Connection Constants:
 constant: GA4_CONNECTION {
-  value: "bq_inteligencia"
- 
-
+  value: "looker-demos"
+  export: override_required
 }
 
 constant: GA4_SCHEMA {
-  value: "ghdz-grupo-bi-prd.google_analytics"
+  value: "adh-demo-data-review.analytics_213025502"
   export: override_optional
-  
 }
 
 constant: GA4_TABLE_VARIABLE {
-  value: "tbl_analytics_ga4_master"
+  value: "events_*"
   export: override_optional
-  
 }
+
